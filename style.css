@@ -55,12 +55,18 @@ div img {
 
 .apresentacao .texto-apresentacao {
     min-height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apresentacao .texto-apresentacao p{
+    font-family: sans-serif;
 }
 
 .texto-apresentacao h1 {
     color: #122a57;
     font-size: 48px;
     margin-bottom: 10px;
+
 }
 
 .btn {
@@ -164,6 +170,7 @@ div img {
     flex-direction: column;
     min-width: 100vh;
     padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 #planos h2 {
@@ -187,7 +194,7 @@ div img {
 
 .item-plano .btn {
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .item-plano h3 {
@@ -195,7 +202,7 @@ div img {
     flex-direction: column;
     display: flex;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .item-plano h3::after {
@@ -204,7 +211,7 @@ div img {
     width: 100%;
     height: 2px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .item-plano ul {
@@ -228,3 +235,16 @@ div img {
     background-color: #122a57;
     margin-right: 5px;
 }
+
+footer{
+    background-color: #122a57;
+    height: 70px;
+    display: flex;
+}
+
+footer .footer{
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
